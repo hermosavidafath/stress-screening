@@ -107,7 +107,7 @@ export default function StresBerat() {
           <Phone className="w-5 h-5 text-blue-600 flex-shrink-0" />
           <div>
             <p className="font-semibold text-blue-900 text-sm">Hotline Kesehatan Mental</p>
-            <p className="text-blue-700 text-sm">Into The Light Indonesia: <strong>119 ext 8</strong> | Yayasan Pulih: <strong>(021) 788-42580</strong></p>
+            <p className="text-blue-700 text-sm">SEJIWA: <strong>119 ext 8</strong> | Yayasan Pulih: <strong>+62 811 8436 633</strong></p>
           </div>
         </div>
       </div>

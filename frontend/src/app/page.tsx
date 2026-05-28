@@ -20,14 +20,11 @@ export default function HomePage() {
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-16 md:py-24">
         <div className="text-center max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
-            Kenali Tingkat Stres{" "}
-            <span className="text-blue-600">Dirimu</span> Lebih Awal
+            Kenali Tingkat Stresmu{" "}
+            <span className="text-blue-600"> Lebih Awal</span>
           </h1>
           <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-            StressCheck adalah sistem screening stres mahasiswa berbasis web
-            yang menggunakan metode <strong>Certainty Factor (CF)</strong> untuk
-            mengidentifikasi tingkat stres dan memberikan rekomendasi penanganan
-            yang tepat.
+            StressCheck merupakan sistem berbasis web yang membantu mahasiswa mengetahui tingkat stres yang dialami serta memberikan saran penanganan yang tepat
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/konsultasi" className="btn-primary flex items-center justify-center gap-2 text-base">
@@ -52,19 +49,19 @@ export default function HomePage() {
               icon: ClipboardList,
               color: "blue",
               title: "1. Isi Kuesioner",
-              desc: "Pilih gejala yang kamu rasakan dan tentukan tingkat keyakinanmu terhadap setiap gejala.",
+              desc: "Pilih gejala yang kamu rasakan lalu tentukan seberapa yakin kamu mengalaminya.",
             },
             {
               icon: TrendingUp,
               color: "purple",
               title: "2. Proses ",
-              desc: "Sistem menghitung berdasarkan gejala dan aturan yang telah dikonfigurasi pakar.",
+              desc: "Sistem akan mengolah jawaban berdasarkan gejala yang telah ditentukan.",
             },
             {
               icon: ShieldCheck,
               color: "green",
               title: "3. Hasil & Saran",
-              desc: "Mendapatkan hasil screening tingkat stres beserta saran penanganan yang sesuai.",
+              desc: "Lihat hasil screening tingkat stres beserta saran penanganan yang sesuai.",
             },
           ].map(({ icon: Icon, color, title, desc }) => (
             <div key={title} className="card text-center hover:shadow-md transition-shadow">
